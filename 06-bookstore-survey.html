@@ -1,0 +1,131 @@
+<!-- Book Store Survey -->
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>School Bookstore Survey</title>
+</head>
+
+<body bgcolor="pink">
+
+    <h1 align="center">School Bookstore Survey</h1>
+
+    <p align="center">
+        Please complete the following survey about your book-buying habits.
+    </p>
+
+    <form action="https://formspree.io/f/mwlerbzk" method="POST">
+<ul>
+       <h2><li>Basic Information</li></h2>
+
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <label>Address:</label>
+        <input type="text" name="address" required>
+        <br><br>
+
+        <label>City:</label>
+        <input type="text" name="city" required>
+        <br><br>
+
+        <label>Pin Code:</label>
+        <input type="text" name="zip" required>
+        <br><br>
+
+        <label>Email ID:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <h2><li>Book-Buying Survey</li></h2>
+
+        <p>1. Where do you usually purchase your books?</p>
+
+        <input type="radio" name="purchase_place" value="School Bookstore" required>
+        School Bookstore
+        <br>
+
+        <input type="radio" name="purchase_place" value="Online Store">
+        Online Store
+        <br>
+
+        <input type="radio" name="purchase_place" value="Local Bookstore">
+        Local Bookstore
+        <br>
+
+        <input type="radio" name="purchase_place" value="Other">
+        Other
+        <br><br>
+
+        <p>2. How often do you purchase books?</p>
+
+        <select name="purchase_frequency">
+            <option>Weekly</option>
+            <option>Monthly</option>
+            <option>Every Semester</option>
+            <option>Rarely</option>
+        </select>
+
+        <br><br>
+
+        <p>3. What type of books do you usually buy?</p>
+
+        <input type="checkbox" name="book_type" value="Textbooks">
+        Textbooks
+        <br>
+
+        <input type="checkbox" name="book_type" value="Reference Books">
+        Reference Books
+        <br>
+
+        <input type="checkbox" name="book_type" value="Novels">
+        Novels
+        <br>
+
+        <input type="checkbox" name="book_type" value="Magazines">
+        Magazines
+        <br><br>
+
+        <p>4. How much do you usually spend on books?</p>
+
+        <input type="radio" name="spending" value="Less than 500">
+        Less than ₹500
+        <br>
+
+        <input type="radio" name="spending" value="500-1000">
+        ₹500 - ₹1000
+        <br>
+
+        <input type="radio" name="spending" value="1000-2000">
+        ₹1000 - ₹2000
+        <br>
+
+        <input type="radio" name="spending" value="More than 2000">
+        More than ₹2000
+        <br><br>
+
+        <p>5. What is the most important factor when buying a book?</p>
+
+        <select name="important_factor">
+            <option>Price</option>
+            <option>Quality</option>
+            <option>Author</option>
+            <option>Availability</option>
+            <option>Reviews</option>
+        </select>
+
+        <br><br>
+
+        <p>6. What improvements would you like to see in the school bookstore?</p>
+
+        <textarea name="suggestions" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit Survey">
+        <input type="reset" value="Reset">
+</ul>
+    </form>
+
+</body>
+</html>
